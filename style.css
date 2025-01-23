@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: aliceblue;
+}
+
+.head {
+    background-color: white;
+    border-color:white;
+    border-width: 3px;
+    border-style: solid;
+}
+.container {
+    border-color: red;
+    border-width: 4000px 8000px;
+
+}
