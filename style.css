@@ -11,12 +11,115 @@ body {
 
 .head {
     background-color: white;
-    border-color:white;
+    border-color: white;
     border-width: 3px;
     border-style: solid;
 }
-.container {
-    border-color: red;
-    border-width: 4000px 8000px;
 
+.container {
+    background-color: white;
+    width: 800px;
+    margin: 50px 150px;
+    padding: 20px 50px;
+    display: inline-block;
 }
+
+.section {
+    height: 50px;
+    font-size: 10px;
+}
+
+br {
+    width: 800px;
+    color: aliceblue;
+    text-emphasis-color: aliceblue;
+}
+
+.blue-1 {
+    font-size: 15px;
+    display: inline-block;
+    background-color: rgba(0, 0, 255, 0.603);
+    border-radius: 5px;
+    padding: 5px;
+    outline: 1px solid;
+}
+
+.white-1 {
+    font-size: 15px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    outline: 1px solid black;
+}
+
+.no-bullet {
+    list-style-type: none;
+}
+
+.strong-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.check {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid green ;
+    color: green;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+.cross {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid red ;
+    color: red;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+.inertext {
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.blue-2 {
+    display: inline;
+    background-color: rgba(6, 99, 220, 0.603);
+    border-radius: 5px;
+    padding: 5px;
+    outline: 1px solid;
+}
+
+.purple {
+    display: inline;
+    background-color: purple;
+    border-radius: 5px;
+    padding: 5px;
+    outline: 1px solid;
+}
+
+.orange {
+    .blue-2 {
+        display: inline;
+        background-color: orange;
+        border-radius: 5px;
+        padding: 5px;
+        outline: 1px solid;
+}
+
+.sales {
+    display: inline;
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 5px;
+    outline: 1px solid;
+}
+
