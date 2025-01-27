@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -18,21 +18,28 @@ body {
 
 .container {
     background-color: white;
-    width: 800px;
-    margin: 50px 150px;
-    padding: 20px 50px;
+    width: 1200px;
+    margin: 30px 100px;
+    padding: 10px 50px;
     display: inline-block;
 }
 
-.section {
-    height: 50px;
-    font-size: 10px;
+hr {
+    border-style: solid;
+    color: aliceblue;
+    margin-inline-start: -50px;
+    border-width: 3px;
 }
 
-br {
-    width: 800px;
-    color: aliceblue;
-    text-emphasis-color: aliceblue;
+.section {
+    font-size: 10px;
+    padding: 10px 0px;
+}
+
+.list-section {
+    font-size: 15px;
+    margin: 30px 0px;
+    padding: 10px 0px; 
 }
 
 .blue-1 {
@@ -63,25 +70,29 @@ br {
 }
 
 .check {
-    width: 100px;
-    height: 100px;
+    width: 15px;
+    height: 15px;
     background-color: white;
     border-radius: 50%;
     border: 1px solid green ;
     color: green;
-    font-size: 20px;
+    font-size: 10px;
     box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
 }
 
 .cross {
-    width: 100px;
-    height: 100px;
+    width: 15px;
+    height: 15px;
     background-color: white;
     border-radius: 50%;
     border: 1px solid red ;
     color: red;
-    font-size: 20px;
+    font-size: 10px;
+    text-align: center;
     box-sizing: border-box;
+    display: inline-block;
 }
 
 .inertext {
@@ -96,6 +107,7 @@ br {
     border-radius: 5px;
     padding: 5px;
     outline: 1px solid;
+    display: inline-block;
 }
 
 .purple {
@@ -104,22 +116,24 @@ br {
     border-radius: 5px;
     padding: 5px;
     outline: 1px solid;
+    display: inline-block;
 }
 
 .orange {
-    .blue-2 {
         display: inline;
         background-color: orange;
         border-radius: 5px;
         padding: 5px;
         outline: 1px solid;
+        display: inline-block;
 }
 
-.sales {
+.yellow {
     display: inline;
     background-color: yellow;
     border-radius: 5px;
     padding: 5px;
     outline: 1px solid;
+    display: inline-block;
 }
 
